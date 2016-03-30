@@ -33,4 +33,7 @@ print nic.DNSHostName
 print nic.IPAddress[0]
 print nic.IPSubnet[0]
 
+test = wmi.WMI().Win32_NetworkAdapter
+
+print test
     
